@@ -8,11 +8,20 @@
 </head>
 <body class="bg-custom-gray font-primary">
 
-    <!-- container starts here -->
+    <!-- top of the page -->
+    <a id="topOfThePage" class=""></a>
+
+    <!-- BUTTON for top of the page -->
+    <div id="backToTop" class="fixed hidden z-10  bottom-0 right-0 text-4xl mb-6 mr-6 p-2">
+        <a href="#topOfThePage">☝️</a>
+    </div>
+
+
+    <!-- container start -->
     <section class="p-8 md:p-5 sm:container sm:mx-auto">
         <!-- navigation start -->
         <nav class="flex justify-center text-lg text-custom-blue invisible md:visible">
-            <a href="#" class="mr-8 no-underline hover:underline">Home</a>
+            <a href="index.html" class="mr-8 no-underline hover:underline">Home</a>
             <a href="#about" class="ml-8 mr-8 no-underline hover:underline">About</a>
             <a href="#project" class="ml-8 mr-8 no-underline hover:underline">Project</a>
             <a href="#contact" class="ml-8 no-underline hover:underline">Contact</a>
@@ -209,5 +218,17 @@
         </section>
         <!-- contact end -->
     </section>
+    <!-- container end -->
+    <script>
+        // back to top functionality
+        window.addEventListener("scroll",function(){
+            // let intViewportHeight = window.innerHeight;
+            if(window.pageYOffset > 500) {
+                document.getElementById("backToTop").style.display = "block";
+            } else if (window.pageYOffset < 500) {
+                document.getElementById("backToTop").style.display = " none";
+            }
+        },false);
+    </script>
 </body>
 </html>
