@@ -1,14 +1,18 @@
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: {
+    enabled: true,
+    content: ['index.html'],
+},
   theme: {
     extend: {
       margin: {
         '22': '5.5rem',
         '46': '11.5rem',
+        '-14': '-3.5rem',
       },
       colors: {
         'custom-gray': '#E5E0DA',
