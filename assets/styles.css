@@ -22275,6 +22275,10 @@ h2:after {
   border-top: 0.15rem solid #1644DA;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

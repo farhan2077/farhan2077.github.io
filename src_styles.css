@@ -18,3 +18,7 @@ h2:after {
     margin-left: 15px;
     border-top: 0.15rem solid #1644DA;
 }
+
+html {
+    scroll-behavior: smooth;
+}
