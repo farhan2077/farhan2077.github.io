@@ -28,14 +28,14 @@ const navItems = [
 export default function Navbar() {
   return (
     <>
-      <nav className="invisible md:visible">
+      <nav className="invisible sm:visible">
         <div className="flex flex-col md:flex-row font-secondary text-md justify-between mt-5 items-center">
           <img
             className="h-auto md:h-6 w-8 bg-gray-100 md:w-auto"
             src={logoImage}
             alt="logo"
           />
-          <div className="flex gap-x-20 items-center text-gray-500 capitalize">
+          <div className="flex gap-x-0 sm:gap-x-20 items-center text-gray-500 capitalize">
             {navItems.map((item) =>
               item.navItem !== "resume" ? (
                 <HashLink key={item.id} smooth to={item.navItemUrl}>
