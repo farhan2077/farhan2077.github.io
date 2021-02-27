@@ -8,8 +8,39 @@ body {
   background-color: #f9fafb;
 }
 
+h2 {
+  overflow: hidden;
+}
+
+h2:after {
+  content: "";
+  display: inline-block;
+  height: 1.2rem;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 0.6rem;
+  border-top: 0.13rem solid #3b82f6;
+}
+
+.header {
+  @apply uppercase font-secondary text-blue-600 text-3xl;
+}
+
+.sectionSpacing {
+  @apply text-primary grid gap-y-4 mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-40;
+}
+
+.text-primary {
+  @apply font-primary text-gray-600 text-base md:text-lg leading-normal;
+}
+
+.text-link {
+  @apply text-blue-600 border-b border-blue-600;
+}
+
 .btn {
-  @apply px-10 py-3 rounded text-xl capitalize shadow;
+  @apply px-8 md:px-10 py-2 md:py-3 rounded capitalize shadow text-base md:text-lg;
 }
 
 .btn:focus {
