@@ -1,9 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Mono&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-color: #F9FAFB;
+body {
+  background-color: #f9fafb;
+}
+
+.btn {
+  @apply px-10 py-3 rounded text-xl capitalize shadow;
+}
+
+.btn:focus {
+  @apply outline-none border-2 border-blue-600;
+}
+
+.btn-blue {
+  @apply bg-blue-600 text-gray-50 border-2 border-blue-600;
+}
+
+.btn-gray {
+  @apply border-2 border-blue-600 text-blue-600;
 }
