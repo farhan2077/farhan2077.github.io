@@ -1,29 +1,30 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 
-import logoImage from "../images/logo/logo.png";
+import { navItems } from "./navbarInfo";
+import logoImage from "../../images/logo/logo.png";
 
-const navItems = [
-  {
-    id: 1,
-    navItem: "about",
-    navItemUrl: "/#about",
-  },
-  {
-    id: 2,
-    navItem: "project",
-    navItemUrl: "/#project",
-  },
-  {
-    id: 3,
-    navItem: "contact",
-    navItemUrl: "/#contact",
-  },
-  {
-    id: 4,
-    navItem: "resume",
-  },
-];
+// const navItems = [
+//   {
+//     id: 1,
+//     navItem: "about",
+//     navItemUrl: "/#about",
+//   },
+//   {
+//     id: 2,
+//     navItem: "project",
+//     navItemUrl: "/#project",
+//   },
+//   {
+//     id: 3,
+//     navItem: "contact",
+//     navItemUrl: "/#contact",
+//   },
+//   {
+//     id: 4,
+//     navItem: "resume",
+//   },
+// ];
 
 export default function Navbar() {
   return (
@@ -44,7 +45,7 @@ export default function Navbar() {
               ) : (
                 <a
                   key={item.id}
-                  href="https://farhan2077.github.io/"
+                  href={item.navItemUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-gray-400 rounded px-4 py-2 shadow-sm"
