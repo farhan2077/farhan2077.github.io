@@ -5,6 +5,9 @@ module.exports = {
     container: {
       center: true,
     },
+    letterSpacing: {
+      tight: "-0.015em"
+    },
     extend: {
       fontFamily: {
         primary: ["Inter"],

@@ -7,12 +7,12 @@ export default function About() {
         ignore this
       </a>
       <h2 className="header">about</h2>
-      <section className="section-spacing text-primary">
+      <section className="mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-40 grid gap-y-4 text-primary">
         <p>
           Hello! I’m Farhan from Khulna.
           <br />
           Currently studying
-          <span className="font-semibold tracking-tight">
+          <span className="font-semibold">
             &nbsp;Electronics & Communication Engineering&nbsp;
           </span>
           at&nbsp;
