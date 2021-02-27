@@ -1,7 +1,8 @@
 import React from "react";
-import Navbar from "../partials/Navbar";
+import Navbar from "../partials/navbar/Navbar";
 import Introduction from "../partials/Introduction";
 import About from "../partials/About";
+import Skills from "../partials/skills/Skills"
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
           <Navbar />
           <Introduction />
           <About />
+          <div className="m-28"></div>
+          <Skills />
         </div>
       </div>
       {/* container end */}
