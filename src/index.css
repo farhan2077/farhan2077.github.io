@@ -27,8 +27,8 @@ h2:after {
   @apply uppercase font-secondary text-blue-600 text-3xl;
 }
 
-.sectionSpacing {
-  @apply text-primary grid gap-y-4 mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-40;
+.section-spacing {
+  @apply grid gap-y-4 mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-40;
 }
 
 .text-primary {

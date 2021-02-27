@@ -7,7 +7,7 @@ export default function About() {
         ignore this
       </a>
       <h2 className="header">about</h2>
-      <section className="sectionSpacing">
+      <section className="section-spacing text-primary">
         <p>
           Hello! I’m Farhan from Khulna.
           <br />
