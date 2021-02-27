@@ -50,7 +50,7 @@ export default function Navbar() {
                 <a
                   key={item.id}
                   href="https://farhan2077.github.io/"
-                  className="border-2 border-gray-400 rounded px-4 py-2"
+                  className="border-2 border-gray-400 rounded px-4 py-2 shadow-sm"
                 >
                   {item.navItem}
                 </a>
