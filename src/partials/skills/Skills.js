@@ -5,9 +5,6 @@ import { languages, frameworks, tools, design } from "./skillsInfo";
 export default function Skills() {
   return (
     <>
-      <a href="#about" className="hidden">
-        ignore this
-      </a>
       <h2 className="header">skills</h2>
       <section className="mt-6 md:mt-10 ml-0 md:ml-28 text-primary grid gap-y-3 md:gap-y-1.5">
         {/* language */}
@@ -15,7 +12,9 @@ export default function Skills() {
           <div className="w-28 font-bold md:font-semibold">languages:</div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-10">
             {languages.map((item) => (
-              <div key={item.id} className="w-40">{item.name}</div>
+              <div key={item.id} className="w-40">
+                {item.name}
+              </div>
             ))}
           </div>
         </div>
@@ -25,7 +24,9 @@ export default function Skills() {
           <div className="w-28 font-bold md:font-semibold">frameworks:</div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-10">
             {frameworks.map((item) => (
-              <div key={item.id} className="w-40">{item.name}</div>
+              <div key={item.id} className="w-40">
+                {item.name}
+              </div>
             ))}
           </div>
         </div>
@@ -35,7 +36,9 @@ export default function Skills() {
           <div className="w-28 font-bold md:font-semibold">tools:</div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-10">
             {tools.map((item) => (
-              <div key={item.id} className="w-40">{item.name}</div>
+              <div key={item.id} className="w-40">
+                {item.name}
+              </div>
             ))}
           </div>
         </div>

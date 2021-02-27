@@ -3,9 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <a href="#about" className="hidden">
-        ignore this
-      </a>
+      <span id="about"></span>
       <h2 className="header">about</h2>
       <section className="mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-40 grid gap-y-4 text-primary">
         <p>
