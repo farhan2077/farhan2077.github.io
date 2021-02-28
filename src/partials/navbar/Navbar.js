@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import { navItems } from "./navbarInfo";
@@ -9,11 +10,13 @@ export default function Navbar() {
     <>
       <nav className="invisible sm:visible">
         <div className="flex flex-col md:flex-row font-secondary text-md justify-between mt-5 items-center">
-          <img
-            className="h-auto md:h-6 w-8 md:w-auto"
-            src={logoImage}
-            alt="logo"
-          />
+          <Link to="/">
+            <img
+              className="h-auto md:h-6 w-8 md:w-auto"
+              src={logoImage}
+              alt="logo"
+            />
+          </Link>
           <div className="flex gap-x-0 sm:gap-x-20 items-center text-gray-500 capitalize">
             {navItems.map((item) =>
               item.navItem !== "resume" ? (
