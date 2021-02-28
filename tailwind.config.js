@@ -6,17 +6,23 @@ module.exports = {
       center: true,
     },
     letterSpacing: {
-      tight: "-0.015em"
+      tight: "-0.015em",
     },
+
     extend: {
       fontFamily: {
         primary: ["Inter"],
         secondary: ["Space Mono"],
       },
+      borderWidth: {
+        3: "3px",
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      margin: ["last"],
+    },
   },
   plugins: [],
 };
