@@ -17,10 +17,15 @@ export default function Navbar() {
               alt="logo"
             />
           </Link>
-          <div className="flex gap-x-0 sm:gap-x-20 items-center text-gray-500 capitalize">
+          <div className="flex gap-x-0 sm:gap-x-16 items-center mr-10">
             {navItems.map((item) =>
               item.navItem !== "resume" ? (
-                <HashLink key={item.id} smooth to={item.navItemUrl}>
+                <HashLink
+                  key={item.id}
+                  smooth
+                  to={item.navItemUrl}
+                  className="capitalize text-gray-500 hover:text-gray-700 tracking-tight"
+                >
                   {item.navItem}
                 </HashLink>
               ) : (
@@ -29,7 +34,7 @@ export default function Navbar() {
                   href={item.navItemUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="border-2 border-gray-400 rounded px-4 py-2 shadow-sm"
+                  className="border-2 border-gray-400 rounded px-4 py-2 shadow-sm text-gray-500 hover:text-gray-700 hover:border-gray-500 tracking-tight"
                 >
                   {item.navItem}
                 </a>
