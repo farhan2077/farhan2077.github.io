@@ -15,7 +15,7 @@ export default function FeaturedProjects() {
             key={project.id}
             className="flex flex-col md:flex-row mb-8 md:mb-10 last:mb-0 gap-y-3 md:gap-y-0 gap-x-0 md:gap-x-10"
           >
-            <div className="border-3 border-blue-500 rounded-md overflow-hidden w-full md:w-1/2">
+            <div className="border-3 border-blue-500 hover:border-blue-600 rounded-md overflow-hidden w-full md:w-1/2 transition-colors ease-in-out duration-200">
               <a
                 href={project.externalLink}
                 target="_blank"
@@ -50,7 +50,7 @@ export default function FeaturedProjects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <GithubIcon className="w-5 mr-4 text-gray-500 stroke-current stroke-2" />
+                    <GithubIcon className="w-5 mr-4 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition-colors ease-in-out duration-200" />
                   </a>
                 </div>
                 <div>
@@ -59,7 +59,7 @@ export default function FeaturedProjects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <ExternalLinkIcon className="mb-0.5 w-5 text-gray-500 stroke-current stroke-2" />
+                    <ExternalLinkIcon className="mb-0.5 w-5 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition-colors ease-in-out duration-200" />
                   </a>
                 </div>
               </div>

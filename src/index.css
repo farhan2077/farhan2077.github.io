@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #f9fafb;
+  @apply bg-gray-50;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2:after {
 }
 
 .text-link {
-  @apply text-blue-600 border-b border-blue-600;
+  @apply text-blue-600 border-b border-blue-600 hover:text-blue-700 transition-colors ease-in-out duration-200;
 }
 
 .btn {
@@ -44,9 +44,9 @@ h2:after {
 }
 
 .btn-blue {
-  @apply bg-blue-600 text-gray-50 border-2 border-blue-600;
+  @apply bg-blue-600 text-gray-50 border-2 border-blue-600 hover:bg-blue-700 hover:border-blue-700 transition-colors ease-in-out duration-200;
 }
 
 .btn-gray {
-  @apply border-2 border-blue-600 text-blue-600;
+  @apply border-2 border-blue-600 text-blue-600 hover:border-blue-700 hover:text-blue-700  transition-colors ease-in-out duration-200;
 }

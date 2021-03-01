@@ -30,7 +30,7 @@ export default function GetNotified() {
                 <div data-element="fields" data-stacked="false">
                   <div className="">
                     <input
-                      className="focus:outline-none border-2 border-blue-600 rounded md:rounded-l md:rounded-r-none placeholder-gray-400 bg-gray-50 py-2 md:py-3.5 font-primary text-center w-full md:w-96 shadow"
+                      className="hover:border-blue-700 border-r-2 md:border-r-0 focus:outline-none border-2 border-blue-600 rounded md:rounded-l md:rounded-r-none placeholder-gray-400 bg-gray-50 py-2 md:py-3.5 font-primary text-center w-full md:w-96 shadow"
                       name="email_address"
                       aria-label="Enter your email address"
                       placeholder="Enter your email address"
@@ -39,7 +39,7 @@ export default function GetNotified() {
                     />
                     <button
                       data-element="submit"
-                      className="block mx-auto md:inline px-2 py-2 md:py-3.5 rounded md:rounded-r md:rounded-l-none btn-blue w-full md:w-40 font-primary mt-3 md:mt-0 shadow"
+                      className="block mx-auto md:inline px-2 py-2 md:py-3.5 border-l-2 md:border-l-0 rounded md:rounded-r md:rounded-l-none btn-blue w-full md:w-40 font-primary mt-3 md:mt-0 shadow"
                     >
                       Subscribe
                     </button>
