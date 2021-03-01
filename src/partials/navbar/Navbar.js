@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import { navItems } from "./navbarInfo";
-import logoImage from "../../images/logo/logo.png";
+import logo250 from "../../images/logo/logo250.png"
 
 export default function Navbar() {
   return (
@@ -12,8 +12,8 @@ export default function Navbar() {
         <div className="flex flex-col md:flex-row font-secondary text-md justify-between mt-5 items-center">
           <Link to="/">
             <img
-              className="h-auto md:h-6 w-8 md:w-auto"
-              src={logoImage}
+              className="h-auto md:h-7 w-8 md:w-auto"
+              src={logo250}
               alt="logo"
             />
           </Link>
