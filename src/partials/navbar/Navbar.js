@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import { navItems } from "./navbarInfo";
-import logo250 from "../../images/logo/logo250.png"
+import logo250 from "../../images/logo/logo250.png";
 
 export default function Navbar() {
   return (
@@ -42,6 +42,7 @@ export default function Navbar() {
             )}
           </div>
         </div>
+        <HashLink to="/#form"></HashLink>
       </nav>
     </>
   );
