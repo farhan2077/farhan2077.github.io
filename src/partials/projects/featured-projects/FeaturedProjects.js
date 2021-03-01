@@ -29,7 +29,7 @@ export default function FeaturedProjects() {
               </a>
             </div>
             <div className="w-full md:w-1/2">
-              <div className="text-primary text-gray-600 uppercase tracking-tight font-semibold">
+              <div className="text-primary text-gray-600 uppercase tracking-tight font-bold">
                 {project.projectName}
               </div>
               <div className="text-primary mt-1">{project.summary}</div>
