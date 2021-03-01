@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Mono&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+::-moz-selection {
+  @apply text-gray-50 bg-gray-400;
+}
+
+::selection {
+  @apply text-gray-50 bg-gray-400;
+}
+
+h2 {
+  overflow: hidden;
+}
+
+h2:after {
+  content: "";
+  display: inline-block;
+  height: 1.2rem;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 0.6rem;
+  border-top: 0.13rem solid #3b82f6;
+}
+
+.header {
+  @apply uppercase font-secondary text-blue-600 text-3xl;
+}
+
+.text-primary {
+  @apply font-primary text-gray-600 text-base md:text-lg leading-normal;
+}
+
+.text-link {
+  @apply text-blue-600 border-b border-blue-600 hover:text-blue-700 transition-colors ease-in-out duration-200;
+}
+
+.btn {
+  @apply px-8 md:px-10 py-2 md:py-3 rounded capitalize shadow text-base md:text-lg;
+}
+
+.btn:focus {
+  @apply outline-none border-2 border-blue-600;
+}
+
+.btn-blue {
+  @apply bg-blue-600 text-gray-50 border-2 border-blue-600 hover:bg-blue-700 hover:border-blue-700 transition-colors ease-in-out duration-200;
+}
+
+.btn-gray {
+  @apply border-2 border-blue-600 text-blue-600 hover:border-blue-700 hover:text-blue-700  transition-colors ease-in-out duration-200;
+}
