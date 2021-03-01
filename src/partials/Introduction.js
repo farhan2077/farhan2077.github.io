@@ -9,7 +9,7 @@ export default function Introduction() {
           <div className="font-primary">
             <p className="text-gray-600 text-xl">
               <img src={wave} alt="Hi" className="inline w-6 mr-2 mb-1" />
-              there!
+              Hi there!
             </p>
             <h1 className="my-16 md:my-20 text-gray-600 font-bold text-5xl md:text-7xl tracking-tight">
               I am&nbsp;
