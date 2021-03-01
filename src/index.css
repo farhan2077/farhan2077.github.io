@@ -8,6 +8,14 @@ body {
   @apply bg-gray-50;
 }
 
+::-moz-selection {
+  @apply text-gray-50 bg-gray-400;
+}
+
+::selection {
+  @apply text-gray-50 bg-gray-400;
+}
+
 h2 {
   overflow: hidden;
 }
