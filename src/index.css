@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+img{
+  @apply pointer-events-none;
+}
+
 body {
   @apply bg-gray-50;
 }
