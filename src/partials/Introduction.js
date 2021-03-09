@@ -1,4 +1,6 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
+
 import wave from "../images/emojis/wave.png";
 
 export default function Introduction() {
@@ -9,7 +11,7 @@ export default function Introduction() {
           <div className="font-primary">
             <p className="text-gray-600 text-xl">
               <img src={wave} alt="Hi" className="inline w-6 mr-2 mb-1" />
-              Hi there!
+              there!
             </p>
             <h1 className="my-16 md:my-20 text-gray-600 font-bold text-5xl md:text-7xl tracking-tight">
               I am&nbsp;
@@ -20,7 +22,9 @@ export default function Introduction() {
               stuff for the web.
             </h1>
             <div>
-              <button className="btn btn-blue">view my projects</button>
+              <HashLink smooth to="/#project">
+                <button className="btn btn-blue">view my projects</button>
+              </HashLink>
               <button className="btn btn-gray ml-0 sm:ml-12 mt-3 md:mt-0">
                 <a href="mailto:farhanbinamin@gmail.com">get in touch</a>
               </button>
