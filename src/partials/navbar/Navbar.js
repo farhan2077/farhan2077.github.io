@@ -8,7 +8,7 @@ import logo250 from "../../images/logo/logo250.png";
 export default function Navbar() {
   return (
     <>
-      <nav className="invisible sm:visible">
+      <nav className="invisible md:visible">
         <div className="flex flex-col md:flex-row font-secondary text-md justify-between mt-5 items-center">
           <Link to="/">
             <img
