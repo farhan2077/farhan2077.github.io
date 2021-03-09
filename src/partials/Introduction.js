@@ -25,9 +25,11 @@ export default function Introduction() {
               <HashLink smooth to="/#project">
                 <button className="btn btn-blue">view my projects</button>
               </HashLink>
-              <button className="btn btn-gray ml-0 sm:ml-12 mt-3 md:mt-0">
-                <a href="mailto:farhanbinamin@gmail.com">get in touch</a>
-              </button>
+              <a href="mailto:farhanbinamin@gmail.com">
+                <button className="btn btn-gray ml-0 sm:ml-12 mt-3 md:mt-0">
+                  get in touch
+                </button>
+              </a>
             </div>
           </div>
         </div>
