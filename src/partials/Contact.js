@@ -8,7 +8,7 @@ export default function Contact() {
       <section className="mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-80 grid gap-y-4 text-primary">
         <p>
           Currently looking for opportunities where I can not only learn new
-          skiils by solving different types of problems but also apply what I
+          skills by solving different types of problems but also apply what I
           know myself. Nevertheless, my inbox is always open.
         </p>
         <p>
