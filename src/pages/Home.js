@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import Navbar from "../partials/navbar/Navbar";
 import Introduction from "../partials/Introduction";
 import About from "../partials/About";
@@ -30,21 +31,23 @@ export default function Home() {
           />
         </div>
       ) : (
-        <div className="md:container px-4 sm:px-10 lg:px-20 xl:px-52">
-          <div className="fadein">
-            <Navbar />
-            <Introduction />
-            <About />
-            <div className="m-28"></div>
-            <Skills />
-            <div className="m-28"></div>
-            <FeaturedProjects />
-            <div className="m-28"></div>
-            <GetNotified />
-            <div className="m-28"></div>
-            <Contact />
-            <div className="m-16"></div>
-            <Footer />
+        <div>
+          <Navbar />
+          <div className="md:container px-4 sm:px-10 lg:px-20 xl:px-52">
+            <div className="fadein">
+              <Introduction />
+              <About />
+              <div className="m-28"></div>
+              <Skills />
+              <div className="m-28"></div>
+              <FeaturedProjects />
+              <div className="m-28"></div>
+              <GetNotified />
+              <div className="m-28"></div>
+              <Contact />
+              <div className="m-16"></div>
+              <Footer />
+            </div>
           </div>
         </div>
       )}
