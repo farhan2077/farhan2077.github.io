@@ -4,25 +4,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* custom scrollbar */
 ::-webkit-scrollbar {
   width: 12px;
 }
 
-/* Track */
+/* custom scrollbar Track */
 ::-webkit-scrollbar-track {
   background: #f9fafb;
 }
 
-/* Handle */
+/* custom scrollbar Handle */
 ::-webkit-scrollbar-thumb {
   background: #9ca3af;
 }
 
-/* Handle on hover */
+/* custom scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #6b7280;
 }
 
+/* custom text selection color */
 ::-moz-selection {
   @apply text-gray-50 bg-gray-400;
 }
@@ -31,14 +33,43 @@
   @apply text-gray-50 bg-gray-400;
 }
 
-img {
-  @apply pointer-events-none;
+/* custom fadein animation */
+.fadein {
+  animation: 0.2s fadein;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
 }
 
-body {
-  @apply bg-gray-50;
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
+/* custom fadeout animation */
+.fadeout {
+  animation: 1650ms ease 0s normal forwards 1 fadeout;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 0;
+  }
+  17% {
+    opacity: 1;
+  }
+  83% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* custom text line */
 h2 {
   overflow: hidden;
 }
@@ -52,6 +83,15 @@ h2:after {
   margin-right: -100%;
   margin-left: 0.6rem;
   border-top: 0.13rem solid #3b82f6;
+}
+
+/* tailwind specific styles */
+img {
+  @apply pointer-events-none;
+}
+
+body {
+  @apply bg-gray-50;
 }
 
 .header {
