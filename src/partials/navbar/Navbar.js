@@ -59,7 +59,7 @@ export default function Navbar() {
     window.addEventListener("touchmove", handleScroll);
 
     return () => window.removeEventListener("touchmove", handleScroll);
-  }, []);
+  }, [handleScroll]);
 
   const navbarStyle = {
     position: "fixed",
