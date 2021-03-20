@@ -6,7 +6,6 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
-      {/* everything should work now */}
     </Switch>
   );
 }

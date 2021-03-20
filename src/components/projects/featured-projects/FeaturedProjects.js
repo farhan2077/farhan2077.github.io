@@ -1,8 +1,8 @@
 import React from "react";
 import featuredProjectsInfo from "./featuredProjectsInfo";
 
-import { ReactComponent as ExternalLinkIcon } from "../../../images/icons/external-link-outline.svg";
-import { ReactComponent as GithubIcon } from "../../../images/icons/github-outline.svg";
+import { ReactComponent as ExternalLinkIcon } from "../../../assets/icons/external-link-icon.svg";
+import { ReactComponent as GithubIcon } from "../../../assets/icons/github-icon.svg";
 
 export default function FeaturedProjects() {
   return (

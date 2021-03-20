@@ -1,6 +1,6 @@
-import symbolSearch from "./featured-projects-images/symbolSearch.png";
-import nodeBlogZlog from "./featured-projects-images/nodeBlogZlog.png";
-import studyRoom4UDemo from "./featured-projects-images/studyRoom4UDemo.png";
+import symbolSearch from "../../../assets/featured-projects-images/symbolSearch.png";
+import nodeBlogZlog from "../../../assets/featured-projects-images/nodeBlogZlog.png";
+import studyRoom4UDemo from "../../../assets/featured-projects-images/studyRoom4UDemo.png";
 
 const featuredProjectsList = [
   {

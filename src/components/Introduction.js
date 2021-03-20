@@ -1,7 +1,7 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 
-import wave from "../images/emojis/wave.png";
+import wave from "../assets/emojis/wave.png";
 
 export default function Introduction() {
   return (

@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-import Navbar from "../partials/navbar/Navbar";
-import Introduction from "../partials/Introduction";
-import About from "../partials/About";
-import Skills from "../partials/skills/Skills";
-import FeaturedProjects from "../partials/projects/featured-projects/FeaturedProjects";
-import GetNotified from "../partials/GetNotified";
-import Contact from "../partials/Contact";
-import Footer from "../partials/Footer";
+import Navbar from "../components/navbar/Navbar";
+import Introduction from "../components/Introduction";
+import About from "../components/About";
+import Skills from "../components/skills/Skills";
+import FeaturedProjects from "../components/projects/featured-projects/FeaturedProjects";
+import GetNotified from "../components/GetNotified";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
-import logo from "../images/logo/logo250.png";
+import logo from "../assets/logos/logo.png";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);

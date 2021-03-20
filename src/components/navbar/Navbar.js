@@ -4,9 +4,9 @@ import { HashLink } from "react-router-hash-link";
 
 import { debounce } from "../../utils/debounce";
 import { navItems } from "./navbarInfo";
-import logo250 from "../../images/logo/logo250.png";
-import { ReactComponent as MenuIcon } from "../../images/icons/menu-alt-3.svg";
-import { ReactComponent as CloseIcon } from "../../images/icons/close.svg";
+import logo from "../../assets/logos/logo.png";
+import { ReactComponent as MenuIcon } from "../../assets/icons/menu-icon.svg";
+import { ReactComponent as CloseIcon } from "../../assets/icons/close-icon.svg";
 
 export default function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -87,7 +87,7 @@ export default function Navbar() {
                 <Link to="/">
                   <img
                     className="h-auto md:h-7 w-8 md:w-auto"
-                    src={logo250}
+                    src={logo}
                     alt="logo"
                   />
                 </Link>
@@ -138,7 +138,7 @@ export default function Navbar() {
             <div className="flex justify-between ">
               <div className="mt-3">
                 <Link to="/">
-                  <img className="h-auto w-11" src={logo250} alt="logo" />
+                  <img className="h-auto w-11" src={logo} alt="logo" />
                 </Link>
               </div>
               <div className="">
