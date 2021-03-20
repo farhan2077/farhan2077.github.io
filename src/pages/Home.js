@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       {isLoading ? (
-        <div className="flex flex-1 justify-center items-center h-screen fadeout">
+        <div className="flex flex-1 justify-center items-center h-screen fadeoutDelay">
           <img
             src={logo}
             alt="site_logo"

@@ -6,7 +6,7 @@ import wave from "../images/emojis/wave.png";
 export default function Introduction() {
   return (
     <>
-      <main className="-mt-8 md:-mt-16 h-screen">
+      <main className="mt-0 md:-mt-2 h-screen">
         <div className="flex items-center h-full">
           <div className="font-primary">
             <p className="text-gray-600 text-xl">

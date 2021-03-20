@@ -50,11 +50,26 @@
 
 /* custom fadeout animation */
 .fadeout {
-  animation: 1650ms ease 0s normal forwards 1 fadeout;
+  animation: 0.2s fadeout;
   animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
 }
 
 @keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* custom fadeoutDelay animation */
+.fadeoutDelay {
+  animation: 1650ms ease 0s normal forwards 1 fadeoutDelay;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+@keyframes fadeoutDelay {
   0% {
     opacity: 0;
   }
