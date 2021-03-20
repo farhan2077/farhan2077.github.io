@@ -69,7 +69,7 @@ export default function Navbar() {
   };
 
   return (
-    <div>
+    <nav>
       {/* desktop */}
       <div className="invisible md:visible">
         <div
@@ -188,6 +188,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
