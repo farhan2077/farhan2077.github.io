@@ -9,17 +9,16 @@
   width: 12px;
 }
 
-/* custom scrollbar Track */
 ::-webkit-scrollbar-track {
   background: #f9fafb;
 }
 
-/* custom scrollbar Handle */
 ::-webkit-scrollbar-thumb {
   background: #9ca3af;
+  border-radius: 0.25rem;
+  border: 2px solid #f9fafb;
 }
 
-/* custom scrollbar Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #6b7280;
 }
