@@ -15,6 +15,10 @@ export default function Navbar() {
   const [navShadowVisibleMobile, setNavShadowVisibleMobile] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  function scrollToTop() {
+    window.scroll({ top: 0, behavior: "smooth" });
+  }
+
   // mobile menu open/close func
   const onClickMobileMenu = () => setMobileMenuOpen(!mobileMenuOpen);
 
@@ -84,7 +88,7 @@ export default function Navbar() {
           <div className="p-5 bg-gray-50">
             <div className="md:container px-4 sm:px-10 lg:px-20 xl:px-52">
               <div className="flex flex-col md:flex-row font-secondary text-md justify-between items-center">
-                <Link to="/">
+                <Link to="/" onClick={scrollToTop}>
                   <img
                     className="h-auto md:h-7 w-8 md:w-auto"
                     src={logo}
