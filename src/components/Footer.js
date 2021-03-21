@@ -1,5 +1,5 @@
 import React from "react";
-import rockon from "../assets/emojis/rockon.png";
+import rockon from "assets/emojis/rockon.png";
 
 export default function Footer() {
   return (
