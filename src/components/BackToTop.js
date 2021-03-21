@@ -4,7 +4,7 @@ import { debounce } from "../utils/debounce";
 import pointingUp from "../assets/emojis/pointing-up.png";
 
 export default function BackToTop() {
-  const [showScrollToTop, setShowScrollToTop] = useState("invisible");
+  const [showScrollToTop, setShowScrollToTop] = useState(false);
   const [animateToTop, setAnimateToTop] = useState("false");
 
   const animateEmoji = animateToTop ? "fadein" : "fadeout";
