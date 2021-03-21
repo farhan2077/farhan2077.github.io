@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-import { debounce } from "../../utils/debounce";
+import { debounce } from "utils/debounce";
 import { navItems } from "./navbarInfo";
-import logo from "../../assets/logos/logo.png";
-import { ReactComponent as MenuIcon } from "../../assets/icons/menu-icon.svg";
-import { ReactComponent as CloseIcon } from "../../assets/icons/close-icon.svg";
+import logo from "assets/logos/logo.png";
+import { ReactComponent as MenuIcon } from "assets/icons/menu-icon.svg";
+import { ReactComponent as CloseIcon } from "assets/icons/close-icon.svg";
 
 export default function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);

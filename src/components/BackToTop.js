@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { debounce } from "../utils/debounce";
-import pointingUp from "../assets/emojis/pointing-up.png";
+import { debounce } from "utils/debounce";
+import pointingUp from "assets/emojis/pointing-up.png";
 
 export default function BackToTop() {
   const [showScrollToTop, setShowScrollToTop] = useState(false);
