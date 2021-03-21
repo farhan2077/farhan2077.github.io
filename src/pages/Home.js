@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+import BackToTop from "../components/BackToTop";
 import Navbar from "../components/navbar/Navbar";
 import Introduction from "../components/Introduction";
 import About from "../components/About";
@@ -32,6 +33,7 @@ export default function Home() {
         </div>
       ) : (
         <div>
+          <BackToTop />
           <Navbar />
           <div className="md:container px-4 sm:px-10 lg:px-20 xl:px-52">
             <div className="fadein">
