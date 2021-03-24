@@ -14,11 +14,10 @@ const navItems = [
     navItem: "contact",
     navItemUrl: "/#contact",
   },
-  // {
-  //   id: 4,
-  //   navItem: "resume",
-  //   navItemUrl: "https://farhan2077.github.io/",
-  // },
+  {
+    id: 4,
+    navItem: "resume",
+  },
 ];
 
 export { navItems };

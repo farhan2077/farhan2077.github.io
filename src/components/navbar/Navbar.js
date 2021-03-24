@@ -109,9 +109,9 @@ export default function Navbar() {
                     ) : (
                       <a
                         key={item.id}
-                        href={item.navItemUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href={
+                          process.env.PUBLIC_URL + "/resume_farhan-bin-amin.pdf"
+                        }
                         className="border-2 border-gray-400 rounded px-4 py-1.5 shadow-sm text-gray-500 hover:text-gray-700 hover:border-gray-500 tracking-tight"
                       >
                         {item.navItem}
@@ -174,9 +174,10 @@ export default function Navbar() {
                         ) : (
                           <a
                             key={item.id}
-                            href={item.navItemUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href={
+                              process.env.PUBLIC_URL +
+                              "/resume_farhan-bin-amin.pdf"
+                            }
                             className="capitalize text-blue-600 tracking-tight mt-4 font-secondary text-4xl leading-normal"
                             onClick={onClickMobileMenu}
                           >
