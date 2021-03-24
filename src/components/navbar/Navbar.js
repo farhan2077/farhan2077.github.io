@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import ReactGA from "react-ga";
 
 import { debounce } from "utils/debounce";
 import { navItems } from "./navbarInfo";
@@ -70,6 +71,13 @@ export default function Navbar() {
     textAlign: "center",
     width: "100%",
     transition: "top 0.35s",
+  };
+
+  const onClickResume = () => {
+    ReactGA.event({
+      category: "resume",
+      action: "Clicked the download resume button",
+    });
   };
 
   return (
