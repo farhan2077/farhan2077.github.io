@@ -121,6 +121,7 @@ export default function Navbar() {
                           process.env.PUBLIC_URL + "/resume_farhan-bin-amin.pdf"
                         }
                         className="border-2 border-gray-400 rounded px-4 py-1.5 shadow-sm text-gray-500 hover:text-gray-700 hover:border-gray-500 tracking-tight"
+                        onClick={onClickResume}
                       >
                         {item.navItem}
                       </a>
@@ -187,7 +188,7 @@ export default function Navbar() {
                               "/resume_farhan-bin-amin.pdf"
                             }
                             className="capitalize text-blue-600 tracking-tight mt-4 font-secondary text-4xl leading-normal"
-                            onClick={onClickMobileMenu}
+                            onClick={(onClickMobileMenu, onClickResume)}
                           >
                             {item.navItem}
                           </a>
