@@ -17,7 +17,6 @@ const navItems = [
   {
     id: 4,
     navItem: "resume",
-    navItemUrl: "../../assets/resume/resume_farhan-bin-amin.pdf",
   },
 ];
 
