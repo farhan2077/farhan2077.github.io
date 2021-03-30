@@ -6,7 +6,6 @@ import Introduction from "components/Introduction";
 import About from "components/About";
 import Skills from "components/skills/Skills";
 import FeaturedProjects from "components/projects/featured-projects/FeaturedProjects";
-import GetNotified from "components/GetNotified";
 import Contact from "components/Contact";
 import Footer from "components/Footer";
 
@@ -43,9 +42,7 @@ export default function Home() {
               <Skills />
               <div className="m-28"></div>
               <FeaturedProjects />
-              <div className="m-28"></div>
-              <GetNotified />
-              <div className="m-28"></div>
+              <div className="m-32"></div>
               <Contact />
               <div className="m-16"></div>
               <Footer />
