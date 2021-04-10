@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <>
+    <div>
       <span id="contact"></span>
       <h2 className="header">contact</h2>
       <section className="mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-80 grid gap-y-4 text-primary">
@@ -38,6 +38,6 @@ export default function Contact() {
           .
         </p>
       </section>
-    </>
+    </div>
   );
 }

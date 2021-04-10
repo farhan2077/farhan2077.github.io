@@ -6,7 +6,7 @@ import { ReactComponent as GithubIcon } from "assets/icons/github-icon.svg";
 
 export default function FeaturedProjects() {
   return (
-    <>
+    <div>
       <span id="project"></span>
       <h2 className="header">featured projects</h2>
       <section className="mt-7 md:mt-14 ml-0 lg:ml-28 mr-0 lg:mr-28 grid gap-y-0 md:gap-y-1.5">
@@ -67,6 +67,6 @@ export default function FeaturedProjects() {
           </div>
         ))}
       </section>
-    </>
+    </div>
   );
 }

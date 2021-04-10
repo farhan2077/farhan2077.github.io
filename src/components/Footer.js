@@ -3,7 +3,7 @@ import rockon from "assets/emojis/rockon.png";
 
 export default function Footer() {
   return (
-    <>
+    <div>
       <p className="font-secondary text-gray-500 text-xs md:text-sm leading-normal text-center mb-2 mt-0 md:-mt-2 tracking-tight">
         <a
           href="https://github.com/farhan2077"
@@ -23,6 +23,6 @@ export default function Footer() {
           </div>
         </a>
       </p>
-    </>
+    </div>
   );
 }
