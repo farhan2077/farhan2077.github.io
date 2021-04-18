@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import ReactGA from "react-ga";
 
 import { debounce } from "utils/debounce";
 import { navItems } from "./navbarInfo";
@@ -73,13 +72,6 @@ export default function Navbar() {
     transition: "top 0.35s",
   };
 
-  const onClickResume = () => {
-    ReactGA.event({
-      category: "resume",
-      action: "Clicked the download resume button",
-    });
-  };
-
   return (
     <nav>
       {/* desktop */}
@@ -121,7 +113,6 @@ export default function Navbar() {
                           process.env.PUBLIC_URL + "/resume_farhan-bin-amin.pdf"
                         }
                         className="border-2 border-gray-400 rounded px-4 py-1.5 shadow-sm text-gray-500 hover:text-gray-700 hover:border-gray-500 tracking-tight"
-                        onClick={onClickResume}
                       >
                         {item.navItem}
                       </a>
@@ -188,7 +179,7 @@ export default function Navbar() {
                               "/resume_farhan-bin-amin.pdf"
                             }
                             className="capitalize text-blue-600 tracking-tight mt-4 text-4xl leading-normal"
-                            onClick={(onClickMobileMenu, onClickResume)}
+                            onClick={onClickMobileMenu}
                           >
                             {item.navItem}
                           </a>
