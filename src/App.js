@@ -8,6 +8,7 @@ function App() {
   useEffect(() => {
     ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
     // To Report Page View
+    ReactGA.set({ page: window.location.pathname });
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
