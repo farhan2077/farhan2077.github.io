@@ -17,6 +17,7 @@ module.exports = {
       borderWidth: {
         3: "3px",
       },
+      transitionProperty: ["hover"],
     },
   },
   variants: {

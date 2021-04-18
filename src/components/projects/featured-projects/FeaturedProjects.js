@@ -50,7 +50,7 @@ export default function FeaturedProjects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <GithubIcon className="w-5 mr-4 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition-colors ease-in-out duration-200" />
+                    <GithubIcon className="w-5 mr-4 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition ease-in-out duration-200 transform hover:-translate-y-0.5" />
                   </a>
                 </div>
                 <div>
@@ -59,7 +59,7 @@ export default function FeaturedProjects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <ExternalLinkIcon className="mb-0.5 w-5 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition-colors ease-in-out duration-200" />
+                    <ExternalLinkIcon className="mb-0.5 w-5 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition ease-in-out duration-200 transform hover:-translate-y-0.5" />
                   </a>
                 </div>
               </div>
