@@ -37,7 +37,7 @@ export default function FeaturedProjects() {
                 {project.tags.map((tag, index) => (
                   <div
                     key={index}
-                    className="font-primary text-sm bg-blue-100 text-blue-700 px-2.5 py-0.5 rounded-full"
+                    className="text-sm bg-blue-100 text-blue-700 px-2.5 py-0.5 rounded-full"
                   >
                     {tag.tagName}
                   </div>

@@ -95,7 +95,7 @@ export default function Navbar() {
         >
           <div className="p-5 bg-gray-50">
             <div className="md:container px-4 sm:px-10 lg:px-20 xl:px-52">
-              <div className="flex flex-col md:flex-row font-primary text-md justify-between items-center">
+              <div className="flex flex-col md:flex-row text-md justify-between items-center">
                 <Link to="/" onClick={scrollToTop}>
                   <img
                     className="h-auto md:h-7 w-8 md:w-auto"
@@ -103,7 +103,7 @@ export default function Navbar() {
                     alt="logo"
                   />
                 </Link>
-                <div className="flex gap-x-0 sm:gap-x-12 items-center mr-10">
+                <div className="flex gap-x-0 sm:gap-x-10 items-center mr-10 font-secondary">
                   {navItems.map((item) =>
                     item.navItem !== "resume" ? (
                       <HashLink
@@ -175,7 +175,7 @@ export default function Navbar() {
                             key={item.id}
                             smooth
                             to={item.navItemUrl}
-                            className="capitalize text-gray-500 tracking-tight mt-4 font-primary text-4xl leading-normal"
+                            className="capitalize text-gray-500 tracking-tight mt-4 text-4xl leading-normal"
                             onClick={onClickMobileMenu}
                           >
                             {item.navItem}
@@ -187,7 +187,7 @@ export default function Navbar() {
                               process.env.PUBLIC_URL +
                               "/resume_farhan-bin-amin.pdf"
                             }
-                            className="capitalize text-blue-600 tracking-tight mt-4 font-primary text-4xl leading-normal"
+                            className="capitalize text-blue-600 tracking-tight mt-4 text-4xl leading-normal"
                             onClick={(onClickMobileMenu, onClickResume)}
                           >
                             {item.navItem}

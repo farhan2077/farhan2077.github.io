@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Mono&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -54,7 +54,7 @@ img {
 }
 
 body {
-  @apply bg-gray-50;
+  @apply bg-gray-50 font-primary;
 }
 
 .header {
@@ -62,7 +62,7 @@ body {
 }
 
 .text-primary {
-  @apply font-primary text-gray-600 text-base md:text-lg leading-normal;
+  @apply text-gray-600 text-base md:text-lg leading-normal;
 }
 
 .text-link {
