@@ -7,7 +7,7 @@ export default function Introduction() {
   return (
     <main className="mt-0 md:-mt-2 h-screen">
       <div className="flex items-center h-full">
-        <div className="font-primary">
+        <div>
           <p className="text-gray-600 text-xl">
             <img src={wave} alt="Hi" className="inline w-6 mr-2 mb-1" />
             there!
@@ -24,10 +24,11 @@ export default function Introduction() {
             <HashLink smooth to="/#project">
               <button className="btn btn-blue">view my projects</button>
             </HashLink>
-            <a href="mailto:farhanbinamin@gmail.com">
-              <button className="btn btn-gray ml-0 sm:ml-12 mt-3 md:mt-0">
-                get in touch
-              </button>
+            <a
+              href="mailto:farhanbinamin@gmail.com"
+              className="ml-0 sm:ml-12 mt-3 md:mt-0"
+            >
+              <button className="btn btn-gray ">get in touch</button>
             </a>
           </div>
         </div>
