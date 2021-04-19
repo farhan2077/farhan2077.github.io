@@ -78,9 +78,9 @@ body {
 }
 
 .btn-blue {
-  @apply bg-blue-600 text-gray-50 border-2 border-blue-600 hover:bg-blue-700 hover:border-blue-700 transition transform ease-in-out duration-200 hover:-translate-y-0.5;
+  @apply bg-blue-600 text-gray-50 border-2 border-blue-600 hover:bg-blue-500 hover:border-blue-500 transition transform ease-in-out duration-200 hover:-translate-y-0.5;
 }
 
 .btn-gray {
-  @apply border-2 border-blue-600 text-blue-600 hover:border-blue-700 hover:text-blue-700 transition transform ease-in-out duration-200 hover:-translate-y-0.5;
+  @apply border-2 border-white bg-white text-blue-600 hover:text-blue-700 transition transform ease-in-out duration-200 hover:-translate-y-0.5;
 }
