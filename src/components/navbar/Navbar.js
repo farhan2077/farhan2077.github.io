@@ -73,7 +73,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav>
+    <nav className="relative z-10">
       {/* desktop */}
       <div className="invisible md:visible">
         <div

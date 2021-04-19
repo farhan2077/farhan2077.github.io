@@ -20,7 +20,7 @@ export default function Introduction() {
             <br />
             stuff for the web.
           </h1>
-          <div>
+          <div className="relative z-0">
             <HashLink smooth to="/#project">
               <button className="btn btn-blue">view my projects</button>
             </HashLink>
