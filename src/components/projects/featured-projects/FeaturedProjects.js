@@ -15,7 +15,7 @@ export default function FeaturedProjects() {
             key={project.id}
             className="flex flex-col md:flex-row mb-8 md:mb-10 last:mb-0 gap-y-3 md:gap-y-0 gap-x-0 md:gap-x-10"
           >
-            <div className="border-3 border-blue-500 hover:border-blue-600 rounded-md overflow-hidden w-full md:w-1/2 transition-colors ease-in-out duration-200">
+            <div className="border-3 border-blue-500 hover:border-blue-600 rounded-md overflow-hidden w-full md:w-1/2 transition ease-in-out duration-200 shadow-md hover:shadow-lg">
               <a
                 href={project.externalLink}
                 target="_blank"
