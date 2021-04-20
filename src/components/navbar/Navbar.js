@@ -139,7 +139,7 @@ export default function Navbar() {
           <div
             className={`absolute top-0 inset-x-0 px-4 py-3 bg-gray-50 ${navShadowMobile} `}
           >
-            <div className="flex justify-between ">
+            <div className="flex justify-between font-secondary">
               <div className="mt-3">
                 <Link to="/">
                   <img className="h-auto w-11" src={logo} alt="logo" />
