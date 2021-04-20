@@ -15,7 +15,7 @@ export default function About() {
           </span>
           at&nbsp;
           <a
-            className="text-link"
+            className="text-link underline-anim"
             href="https://ku.ac.bd/"
             target="_blank"
             rel="noopener noreferrer"

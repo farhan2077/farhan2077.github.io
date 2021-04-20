@@ -12,7 +12,10 @@ export default function Contact() {
           know myself. Nevertheless, my inbox is always open.
         </p>
         <p>
-          <a href="mailto:farhanbinamin@gmail.com" className="text-link">
+          <a
+            href="mailto:farhanbinamin@gmail.com"
+            className="text-link underline-anim"
+          >
             Say hi.
           </a>
         </p>
@@ -22,7 +25,7 @@ export default function Contact() {
             href="https://www.facebook.com/farhanbinamin1/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-link"
+            className="text-link underline-anim"
           >
             facebook
           </a>
@@ -31,7 +34,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/farhan-bin-amin/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-link"
+            className="text-link underline-anim"
           >
             linkedin
           </a>
