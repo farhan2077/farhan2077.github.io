@@ -137,7 +137,7 @@ export default function Navbar() {
           }}
         >
           <div
-            className={`absolute top-0 inset-x-0 px-4 py-3 bg-gray-50 ${navShadowMobile} `}
+            className={`absolute top-0 inset-x-0 px-4 py-3 navbar-mobile ${navShadowMobile} `}
           >
             <div className="flex justify-between font-secondary">
               <div className="mt-3">

@@ -80,6 +80,11 @@ body {
   background-color: rgba(249, 250, 251, 0.5);
 }
 
+.navbar-mobile {
+  backdrop-filter: blur(5px);
+  background-color: rgba(249, 250, 251, 0.8);
+}
+
 .header {
   @apply uppercase font-secondary text-blue-600 text-3xl;
 }
