@@ -85,7 +85,7 @@ export default function Navbar() {
             boxShadow: navShadowVisible ? "0 1px 5px #D1D5DB" : "none",
           }}
         >
-          <div className="p-5 bg-gray-50">
+          <div className="p-5 navbar">
             <div className="md:container px-4 sm:px-10 lg:px-20 xl:px-52">
               <div className="flex flex-col md:flex-row text-md justify-between items-center">
                 <Link to="/" onClick={scrollToTop}>
@@ -102,7 +102,7 @@ export default function Navbar() {
                         key={item.id}
                         smooth
                         to={item.navItemUrl}
-                        className="capitalize text-gray-500 hover:text-gray-700 tracking-tight"
+                        className="capitalize text-gray-600 hover:text-gray-400 tracking-tight transition transform ease-in-out duration-200"
                       >
                         {item.navItem}
                       </HashLink>
@@ -112,7 +112,7 @@ export default function Navbar() {
                         href={
                           process.env.PUBLIC_URL + "/resume_farhan-bin-amin.pdf"
                         }
-                        className="capitalize text-blue-500 hover:text-blue-700 tracking-tight"
+                        className="capitalize text-blue-600 hover:text-blue-400 tracking-tight transition transform ease-in-out duration-200"
                       >
                         {item.navItem}
                       </a>
