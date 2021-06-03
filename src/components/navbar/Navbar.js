@@ -160,31 +160,17 @@ export default function Navbar() {
                     <div
                       className={`flex flex-col items-end pr-2.5 ${closeIconAnimation}`}
                     >
-                      {navItems.map((item) =>
-                        item.navItem !== "resume" ? (
-                          <HashLink
-                            key={item.id}
-                            smooth
-                            to={item.navItemUrl}
-                            className="capitalize text-gray-500 tracking-tight mt-4 text-4xl leading-normal"
-                            onClick={onClickMobileMenu}
-                          >
-                            {item.navItem}
-                          </HashLink>
-                        ) : (
-                          <a
-                            key={item.id}
-                            href={
-                              process.env.PUBLIC_URL +
-                              "/resume_farhan-bin-amin.pdf"
-                            }
-                            className="capitalize text-blue-600 tracking-tight mt-4 text-4xl leading-normal"
-                            onClick={onClickMobileMenu}
-                          >
-                            {item.navItem}
-                          </a>
-                        )
-                      )}
+                      {navItems.map((item) => (
+                        <HashLink
+                          key={item.id}
+                          smooth
+                          to={item.navItemUrl}
+                          className="capitalize text-gray-500 tracking-tight mt-4 text-4xl leading-normal"
+                          onClick={onClickMobileMenu}
+                        >
+                          {item.navItem}
+                        </HashLink>
+                      ))}
                     </div>
                   </div>
                 )}

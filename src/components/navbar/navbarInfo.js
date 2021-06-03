@@ -14,10 +14,6 @@ const navItems = [
     navItem: "contact",
     navItemUrl: "/#contact",
   },
-  // {
-  //   id: 4,
-  //   navItem: "resume",
-  // },
 ];
 
 export { navItems };
