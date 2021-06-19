@@ -29,7 +29,7 @@ export default function Contact() {
           >
             facebook
           </a>
-          , &nbsp;
+          ,&nbsp;
           <a
             href="https://twitter.com/farhanbinamin"
             target="_blank"
