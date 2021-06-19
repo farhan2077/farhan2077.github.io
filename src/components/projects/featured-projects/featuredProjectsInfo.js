@@ -17,8 +17,8 @@ const featuredProjectsList = [
         tagName: "css",
       },
     ],
-    externalLink: "https://symbol-search.netlify.app/",
-    githubLink: "https://github.com/farhan2077/symbol-search",
+    externalLink: "https://symbols-search.vercel.app/",
+    githubLink: "https://github.com/farhan2077/symbols-search",
     githubAvailability: "yes",
   },
   {
