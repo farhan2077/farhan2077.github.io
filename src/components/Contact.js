@@ -5,7 +5,7 @@ export default function Contact() {
     <div>
       <span id="contact"></span>
       <h2 className="header">contact</h2>
-      <section className="mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-80 grid gap-y-4 text-primary">
+      <section className="grid mt-6 ml-0 mr-0 md:mt-10 md:ml-28 md:mr-80 gap-y-4 text-primary">
         <p>
           Currently looking for opportunities where I can not only learn new
           skills by solving different types of problems but also apply what I
@@ -22,12 +22,21 @@ export default function Contact() {
         <p>
           I am also on&nbsp;
           <a
-            href="https://www.facebook.com/farhanbinamin1/"
+            href="https://www.facebook.com/farhanbinamin2077"
             target="_blank"
             rel="noopener noreferrer"
             className="text-link underline-anim"
           >
             facebook
+          </a>
+          , &nbsp;
+          <a
+            href="https://twitter.com/farhanbinamin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-link underline-anim"
+          >
+            twitter
           </a>
           &nbsp;and&nbsp;
           <a
