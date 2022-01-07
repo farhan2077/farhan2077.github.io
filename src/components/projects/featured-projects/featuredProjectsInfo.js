@@ -1,6 +1,6 @@
-import symbolSearch from "assets/featured-projects-images/symbolSearch.png";
-import nodeBlogZlog from "assets/featured-projects-images/nodeBlogZlog.png";
-import studyRoom4UDemo from "assets/featured-projects-images/studyRoom4UDemo.png";
+import symbolSearch from "assets/featured-projects-images/symbols-search.png";
+import nodeBlogZlog from "assets/featured-projects-images/node-blog-zlog.png";
+import kuEceHelper from "assets/featured-projects-images/ku-ece-helper.png";
 
 const featuredProjectsList = [
   {
@@ -11,18 +11,32 @@ const featuredProjectsList = [
       "Tired of searching for symbols for assignments? Go to Symbol Search and find them right away.",
     tags: [
       {
-        tagName: "html",
+        tagName: "nextjs",
       },
       {
-        tagName: "css",
+        tagName: "tailwindcss",
       },
     ],
     externalLink: "https://symbols-search.vercel.app/",
     githubLink: "https://github.com/farhan2077/symbols-search",
-    githubAvailability: "yes",
   },
   {
     id: 2,
+    projectName: "KU ECE Helper",
+    imageSrc: kuEceHelper,
+    summary: "KU ECE academic related things in one place.",
+    tags: [
+      {
+        tagName: "nextjs",
+      },
+      {
+        tagName: "chakra-ui",
+      },
+    ],
+    externalLink: "https://ku-ece-helper.vercel.app/",
+  },
+  {
+    id: 3,
     projectName: "zlog the blog",
     imageSrc: nodeBlogZlog,
     summary: "A beautiful blogging site made for the readability.",
@@ -31,26 +45,14 @@ const featuredProjectsList = [
         tagName: "express",
       },
       {
+        tagName: "ejs",
+      },
+      {
         tagName: "authentication",
       },
     ],
     externalLink: "https://nodeblogzlog.herokuapp.com/",
     githubLink: "https://github.com/farhan2077/node-blog-test",
-    githubAvailability: "no",
-  },
-  {
-    id: 3,
-    projectName: "study room for you",
-    imageSrc: studyRoom4UDemo,
-    summary: "An overhauled look and feel of one of my friend's website.",
-    tags: [
-      {
-        tagName: "bootstrap",
-      },
-    ],
-    externalLink: "https://studyroom4udemo.netlify.app/",
-    githubLink: "https://github.com/farhan2077/studyroom4uDemo",
-    githubAvailability: "yes",
   },
 ];
 
