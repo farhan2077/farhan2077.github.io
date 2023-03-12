@@ -1,51 +1,38 @@
-// each section can have 4 item most
+// each skill type can have 4 item most
 
-const languages = [
+const SKILLS = [
   {
-    id: 1,
-    name: "javascript",
+    type: "Languages",
+    examples: [
+      { id: "1", name: "JavaScript" },
+      { id: "2", name: "Html & CSS" },
+      { id: "3", name: "Python" },
+      { id: "4", name: "C" },
+    ],
   },
   {
-    id: 2,
-    name: "html & css",
+    type: "Frameworks",
+    examples: [
+      { id: "1", name: "React" },
+      { id: "2", name: "Express" },
+      { id: "3", name: "Tailwind" },
+      { id: "4", name: "Bootstrap" },
+    ],
   },
   {
-    id: 3,
-    name: "python",
+    type: "Tools",
+    examples: [
+      { id: "1", name: "Git & GitHub" },
+      { id: "2", name: "Chrome devtoll" },
+    ],
+  },
+  {
+    type: "Design",
+    examples: [
+      { id: "1", name: "Figma" },
+      { id: "2", name: "Adobe Illustrator" },
+    ],
   },
 ];
 
-const frameworks = [
-  {
-    id: 1,
-    name: "react",
-  },
-  {
-    id: 2,
-    name: "bootstrap",
-  },
-];
-
-const tools = [
-  {
-    id: 1,
-    name: "git & github",
-  },
-  {
-    id: 2,
-    name: "chrome devtool",
-  },
-];
-
-const design = [
-  {
-    id: 1,
-    name: "figma",
-  },
-  {
-    id: 2,
-    name: "illustrator",
-  },
-];
-
-export { languages, frameworks, tools, design };
+export { SKILLS };
