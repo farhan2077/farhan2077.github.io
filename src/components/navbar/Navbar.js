@@ -86,23 +86,23 @@ export default function Navbar() {
           }}
         >
           <div className="p-5 navbar">
-            <div className="md:container px-4 sm:px-10 lg:px-20 xl:px-52">
-              <div className="flex flex-col md:flex-row text-md justify-between items-center">
+            <div className="px-4 md:container sm:px-10 lg:px-20 xl:px-52">
+              <div className="flex flex-col items-center justify-between md:flex-row text-md">
                 <Link to="/" onClick={scrollToTop}>
                   <img
-                    className="h-auto md:h-7 w-8 md:w-auto"
+                    className="w-8 h-auto md:h-7 md:w-auto"
                     src={logo}
                     alt="logo"
                   />
                 </Link>
-                <div className="flex gap-x-0 sm:gap-x-10 items-center mr-10 font-secondary">
+                <div className="flex items-center mr-10 gap-x-0 sm:gap-x-10 font-secondary">
                   {navItems.map((item) =>
                     item.navItem !== "resume" ? (
                       <HashLink
                         key={item.id}
                         smooth
                         to={item.navItemUrl}
-                        className="capitalize text-gray-600 hover:text-gray-400 tracking-tight transition transform ease-in-out duration-200"
+                        className="tracking-tight text-gray-600 capitalize transition duration-200 ease-in-out transform hover:text-gray-400"
                       >
                         {item.navItem}
                       </HashLink>
@@ -110,9 +110,10 @@ export default function Navbar() {
                       <a
                         key={item.id}
                         href={
-                          process.env.PUBLIC_URL + "/resume_farhan-bin-amin.pdf"
+                          `https://drive.google.com/uc?export=download&id=` +
+                          item.navItemUrl.split("/")[5]
                         }
-                        className="capitalize text-blue-600 hover:text-blue-400 tracking-tight transition transform ease-in-out duration-200"
+                        className="tracking-tight text-blue-600 capitalize transition duration-200 ease-in-out transform hover:text-blue-400"
                       >
                         {item.navItem}
                       </a>
@@ -165,7 +166,7 @@ export default function Navbar() {
                           key={item.id}
                           smooth
                           to={item.navItemUrl}
-                          className="capitalize text-gray-500 tracking-tight mt-4 text-4xl leading-normal"
+                          className="mt-4 text-4xl leading-normal tracking-tight text-gray-500 capitalize"
                           onClick={onClickMobileMenu}
                         >
                           {item.navItem}
