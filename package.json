@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "husky": "^8.0.3",
     "tailwindcss": "^3.2.7"
   }
 }

@@ -5,15 +5,14 @@ export default function About() {
     <div>
       <span id="about"></span>
       <h2 className="header">about</h2>
-      <section className="mt-6 md:mt-10 ml-0 md:ml-28 mr-0 md:mr-40 grid gap-y-4 text-primary">
+      <section className="grid mt-6 ml-0 mr-0 md:mt-10 md:ml-28 md:mr-40 gap-y-4 text-primary">
         <p>
           Hello! I’m Farhan from Khulna.
-          <br />
-          Currently studying
+          <br />I have completed my graduation in
           <span className="font-semibold">
             &nbsp;Electronics & Communication Engineering&nbsp;
           </span>
-          at&nbsp;
+          from&nbsp;
           <a
             className="text-link underline-anim"
             href="https://ku.ac.bd/"
