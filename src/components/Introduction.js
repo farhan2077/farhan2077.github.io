@@ -18,13 +18,13 @@ export default function Introduction() {
             <span className="text-blue-600">Farhan Bin Amin</span>.<br />I love
             creating beautiful
             <br />
-            stuff for the web.
+            stuff for the web and tinkering with things.
           </h1>
           <div className="relative z-0">
             <HashLink smooth to="/#project">
-              <button className="btn btn-blue">view my projects</button>
+              <button className="btn btn-blue">view projects</button>
             </HashLink>
-            <a href="mailto:farhanbinamin@gmail.com" className="ml-0 sm:ml-12">
+            <a href="mailto:farhanbinamin@gmail.com" className="ml-4 sm:ml-12">
               <button className="btn btn-gray mt-3 md:mt-0">
                 get in touch
               </button>
