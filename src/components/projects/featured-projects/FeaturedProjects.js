@@ -17,7 +17,7 @@ export default function FeaturedProjects() {
           >
             <div className="w-full overflow-hidden transition duration-200 ease-in-out border-blue-500 rounded-md shadow-md border-3 hover:border-blue-600 md:w-1/2 hover:shadow-lg">
               <a
-                href={project.externalLink}
+                href={project.externalLink || project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -47,27 +47,29 @@ export default function FeaturedProjects() {
               <div className="flex items-center mt-3 md:mt-6 ml-0.5">
                 <div>
                   {project.githubLink ? (
-                    <div>
-                      <a
-                        href={project.githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <GithubIcon className="w-5 mr-4 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition ease-in-out duration-200 transform hover:-translate-y-0.5" />
-                      </a>
-                    </div>
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GithubIcon className="w-5 mr-4 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition ease-in-out duration-200 transform hover:-translate-y-0.5" />
+                    </a>
                   ) : (
                     <div></div>
                   )}
                 </div>
                 <div>
-                  <a
-                    href={project.externalLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <ExternalLinkIcon className="mb-0.5 w-5 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition ease-in-out duration-200 transform hover:-translate-y-0.5" />
-                  </a>
+                  {project.externalLink ? (
+                    <a
+                      href={project.externalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLinkIcon className="mb-0.5 w-5 text-gray-500 hover:text-blue-600 stroke-current stroke-2 transition ease-in-out duration-200 transform hover:-translate-y-0.5" />
+                    </a>
+                  ) : (
+                    <div></div>
+                  )}
                 </div>
               </div>
             </div>

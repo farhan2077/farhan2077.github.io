@@ -1,6 +1,7 @@
 import symbolSearch from "assets/featured-projects-images/symbols-search.png";
-import nodeBlogZlog from "assets/featured-projects-images/node-blog-zlog.png";
+import universalAmity from "assets/featured-projects-images/universal-amity.png";
 import kuEceHelper from "assets/featured-projects-images/ku-ece-helper.png";
+import swifttoll from "assets/featured-projects-images/swifttoll.png";
 
 const featuredProjectsList = [
   {
@@ -24,7 +25,8 @@ const featuredProjectsList = [
     id: 2,
     projectName: "KU ECE Helper",
     imageSrc: kuEceHelper,
-    summary: "KU ECE academic related things in one place.",
+    summary:
+      "Question bank for ECE discipline (KU) and link to some other tools.",
     tags: [
       {
         tagName: "nextjs",
@@ -37,22 +39,35 @@ const featuredProjectsList = [
   },
   {
     id: 3,
-    projectName: "zlog the blog",
-    imageSrc: nodeBlogZlog,
-    summary: "A beautiful blogging site made for the readability.",
+    projectName: "SwiftToll",
+    imageSrc: swifttoll,
+    summary:
+      "An open source framework for Automatic Toll Collection which includes both hardware and software.",
     tags: [
       {
-        tagName: "express",
+        tagName: "nextjs",
       },
       {
-        tagName: "ejs",
-      },
-      {
-        tagName: "authentication",
+        tagName: "chakra-ui",
       },
     ],
-    externalLink: "https://nodeblogzlog.herokuapp.com/",
-    githubLink: "https://github.com/farhan2077/node-blog-test",
+    githubLink: "https://github.com/farhan2077/swifttoll",
+  },
+  {
+    id: 4,
+    projectName: "Universal Amity",
+    imageSrc: universalAmity,
+    summary: "Landing page redesign for a charity organization.",
+    tags: [
+      {
+        tagName: "react",
+      },
+      {
+        tagName: "tailwindcss",
+      },
+    ],
+    externalLink: "https://universal-amity-v1.netlify.app/",
+    githubLink: "https://github.com/farhan2077/universal-amity-website",
   },
 ];
 
