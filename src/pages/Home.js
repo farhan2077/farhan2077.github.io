@@ -8,6 +8,7 @@ import Skills from "components/skills/Skills";
 import FeaturedProjects from "components/projects/featured-projects/FeaturedProjects";
 import Contact from "components/Contact";
 import Footer from "components/Footer";
+import Work from "components/Work";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
         <div>
           <Introduction />
           <About />
+          <div className="m-28"></div>
+          <Work />
           <div className="m-28"></div>
           <Skills />
           <div className="m-28"></div>
