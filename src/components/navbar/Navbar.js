@@ -113,7 +113,7 @@ export default function Navbar() {
                           `https://drive.google.com/uc?export=download&id=` +
                           item.navItemUrl.split("/")[5]
                         }
-                        className="tracking-tight text-blue-600 capitalize transition duration-200 ease-in-out transform hover:text-blue-400"
+                        className="tracking-tight text-blue-600 border-2 rounded border-[#3b82f6] px-3 py-1 hover:border-blue-400 capitalize transition duration-200 ease-in-out transform hover:text-blue-400"
                       >
                         {item.navItem}
                       </a>
