@@ -33,6 +33,14 @@ npm start
 
 Open `http://localhost:3000` in your browser.
 
+### Deploy
+
+```sh
+npm run deploy
+```
+
+_Repo must be configured to be deployed to github pages from settings. More details [here](https://github.com/gitname/react-gh-pages)_
+
 ## Contribute
 
 Any pull requests are welcome. Of course you can fork this repo. Just don't forget to give me credit by linking back to this repo `https://github.com/farhan2077/farhan2077.github.io`. Thanks!
