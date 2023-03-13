@@ -1,6 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}", "./public/index.html"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     container: {
       center: true,
